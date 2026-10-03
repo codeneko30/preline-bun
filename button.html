@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preline UI Buttons - Plain HTML</title>
+  <!-- Tailwind Output CSS -->
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 flex items-center justify-center h-screen">
+
+  <!-- Button Group -->
+  <div class="inline-flex flex-wrap gap-2">
+    
+    <!-- Solid Button -->
+    <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg bg-blue-600 border border-transparent text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+      Solid
+    </button>
+
+    <!-- Outline Button -->
+    <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 text-gray-800 hover:border-blue-600 hover:text-blue-600 focus:outline-none focus:border-blue-600 focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none">
+      Outline
+    </button>
+
+    <!-- Ghost Button -->
+    <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-800 focus:outline-none focus:bg-blue-100 focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">
+      Ghost
+    </button>
+
+    <!-- Soft Button -->
+    <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-100 text-blue-800 hover:bg-blue-200 focus:outline-none focus:bg-blue-200 disabled:opacity-50 disabled:pointer-events-none">
+      Soft
+    </button>
+
+    <!-- White Button -->
+    <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
+      White
+    </button>
+
+    <!-- Link Button -->
+    <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none">
+      Link
+    </button>
+
+  </div>
+  <!-- End Button Group -->
+
+  <!-- Preline UI JavaScript -->
+  <script src="./node_modules/preline/dist/preline.js"></script>
+</body>
+</html>

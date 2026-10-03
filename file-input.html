@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preline UI File Input - Plain HTML</title>
+  <!-- Tailwind Output CSS -->
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen">
+
+  <div class="max-w-sm w-full space-y-3 p-6 bg-white rounded-xl shadow-sm border border-gray-200">
+    <div>
+      <label for="small-file-input" class="sr-only">Choose file</label>
+      <input type="file" name="small-file-input" id="small-file-input" class="block w-full bg-layer border border-layer-line rounded-lg text-sm text-foreground placeholder:text-muted-foreground-1 focus:z-10 focus:outline-hidden focus:border-primary-focus focus:ring-1 focus:ring-primary-focus disabled:opacity-50 disabled:pointer-events-none file:bg-surface file:border-0 file:me-4 file:py-2 file:px-4">
+    </div>
+
+    <div>
+      <label for="medium-file-input" class="sr-only">Choose file</label>
+      <input type="file" name="medium-file-input" id="medium-file-input" class="block w-full bg-layer border border-layer-line rounded-lg text-sm text-foreground placeholder:text-muted-foreground-1 focus:z-10 focus:outline-hidden focus:border-primary-focus focus:ring-1 focus:ring-primary-focus disabled:opacity-50 disabled:pointer-events-none file:bg-surface file:border-0 file:me-4 file:py-3 file:px-4">
+    </div>
+
+    <div>
+      <label for="large-file-input" class="sr-only">Choose file</label>
+      <input type="file" name="large-file-input" id="large-file-input" class="block w-full bg-layer border border-layer-line rounded-lg text-sm text-foreground placeholder:text-muted-foreground-1 focus:z-10 focus:outline-hidden focus:border-primary-focus focus:ring-1 focus:ring-primary-focus disabled:opacity-50 disabled:pointer-events-none file:bg-surface file:border-0 file:me-4 file:py-3 file:px-4 sm:file:py-5">
+    </div>
+  </div>
+
+  <!-- Preline UI JavaScript (এটি অবশ্যই থাকতে হবে) -->
+  <script src="./node_modules/preline/dist/preline.js"></script>
+</body>
+</html>
